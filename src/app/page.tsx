@@ -81,7 +81,7 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: 'funAndTrendy', colorTemplate: 1, textAnimation: 'slide' }}>
       <SimpleFloatingNavbar 
-        navItems={sectionsData.nav}
+        navItems={[{ id: 'hero', name: 'Hero' }, { id: 'about', name: 'About' }, { id: 'portfolio', name: 'Portfolio' }, { id: 'pricing', name: 'Pricing' }, { id: 'faq', name: 'FAQs' }, { id: 'contact', name: 'Contact' }]}
         logoSrc="/images/logo.svg"
         logoWidth={50}
         logoHeight={50}
