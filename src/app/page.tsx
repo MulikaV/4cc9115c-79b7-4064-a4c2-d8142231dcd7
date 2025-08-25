@@ -1,6 +1,5 @@
 "use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import { AnimatedRetroText } from '@/components/text/AnimatedRetroText';
 import { SimpleHero } from '@/components/sections/layouts/hero/SimpleHero';
 import { GalleryBento } from '@/components/bento/galleryBento/GalleryBento';
 import { PricingBento } from '@/components/bento/PricingBento';
