@@ -91,7 +91,7 @@ export default function Home() {
       <section id="hero" className="bg-soft-gradient p-8">
         <SimpleHero 
           title={sectionsData.hero.headline}
-          subtitle={sectionsData.hero.subcopy}
+          description={sectionsData.hero.subcopy}
           primaryButtonText={sectionsData.hero.primaryCTA}
         />
       </section>
